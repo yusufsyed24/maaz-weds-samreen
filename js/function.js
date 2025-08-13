@@ -90,8 +90,8 @@ $(document).on('ready', function () {
 
     // JavaScript Document
    var today = new Date();
-   var target = new Date('08/18/2025 19:00:00'); //Enter Target date & time - MM/DD/YYYY hh:mm:ss
-   var startdate = new Date('08/11/2025'); //Enter Timer start date or Today's date - MM/DD/YYYY
+   var target = new Date('08/18/2025 15:00:00'); //Enter Target date & time - MM/DD/YYYY hh:mm:ss
+   var startdate = new Date('08/13/2025'); //Enter Timer start date or Today's date - MM/DD/YYYY
    if ($.find('.countdown').length) {
        $('.countdown').final_countdown({
            'start': startdate.getTime() / 1000,
